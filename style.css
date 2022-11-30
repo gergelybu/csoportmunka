@@ -76,6 +76,10 @@
     grid-template-rows: repeat(6, 10%);
 }
 
+a{
+    text-decoration: none;
+}
+
 #tag{
     font-size: 16pt;
     font-weight: bold;
