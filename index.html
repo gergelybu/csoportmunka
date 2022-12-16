@@ -10,24 +10,22 @@
   <body>
     <div class="main">
       <div class="navbar">
-        <button type="button" class="DEV"><a href="index.html">DEV</a></button>
-        <input type="text" placeholder="Search..">
-        <a href="#"><img src="icons/profile-modified.png" alt=""></a>
-        <a href="#"><img src="icons/mail-modified.png" alt=""></a>
-        <a href="#"><img src="icons/settings-modified.png" alt=""></a>
-        <button type="button" class="post"><a href="#Writeapost">Write a post</a></button>
+        
       </div>
       <div class="aside-left">
-        <div class="left-up">
-          <div><a href="index.html"><img src="/icons/home.png" alt="home"/>Home</a></div>
-          <div><a href="#Reading Lists"><img src="/icons/open-book.png" alt="open-book"/>Reading Lists</a></div>
-          <div><a href="#Listings"><img src="/icons/checklist.png" alt="checklist"/>Listings</a></div>
-          <div><a href="#Podcasts"><img src="/icons/microphone.png" alt="microphone"/>Podcasts</a></div>
-          <div><a href="#Videos"><img src="/icons/video-camera.png" alt="video-camera"/>Videos</a></div>
-          <div><a href="#Tags"><img src="/icons/tag.png" alt="tag"/>Tags</a></div>
+        <div style="border-bottom: 4px solid red;" class="left-up">
+          <div><a href="index.html"><img src="icons/home.png" alt="home"/>Home</a></div>
+          <div><a href="#Reading Lists"><img src="icons/open-book.png" alt="open-book"/>Reading Lists</a></div>
+          <div><a href="#Listings"><img src="icons/checklist.png" alt="checklist"/>Listings</a></div>
+          <div><a href="#Podcasts"><img src="icons/microphone.png" alt="microphone"/>Podcasts</a></div>
+          <div><a href="#Videos"><img src="icons/video-camera.png" alt="video-camera"/>Videos</a></div>
+          <div><a href="#Tags"><img src="icons/tag.png" alt="tag"/>Tags</a></div>
         </div>
         <div class="left-down">
-          <div id="tag">Tags<img src="/icons/nut.png" alt="" /></div>
+          <div class="nut">
+            <div id="tag">Tags</div>
+            <img class="nutnut" src="icons/nut.png" alt="nutnut">
+          </div>
           <div>#javascript</div>
           <div>#webdev</div>
           <div>#career</div>
@@ -40,15 +38,14 @@
         <div class="right-up">
           <div class="right-up-container">
             <div class="see-all">
-              <h2>Listings</h2>
-              <a href="#see-all">See all</a>
+              <h2>Listings</h2><a href="#see-all">See all</a>
             </div>
             <div class="listings">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, est? Delectus atque nostrum fugiat sit. Sapiente, eaque numquam. Pariatur est distinctio quaerat asperiores culpa doloremque voluptas repudiandae non, itaque at.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illo, maiores quaerat odio quidem incidunt laborum quas totam, voluptatibus voluptates, cumque consequatur error. Sit, odit! Facere eaque reprehenderit fuga corrupti?</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ipsa quidem earum at, eos harum culpa tempora libero nostrum eligendi quia corrupti enim laborum aliquid dolorum velit et. Explicabo, quis.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas magnam dolor laudantium architecto repellendus molestias incidunt dicta. Facilis, fugiat tenetur odio exercitationem, quaerat aliquid aspernatur consequuntur, pariatur non sit mollitia.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam officiis, in repellendus, dolor aspernatur odio magnam rerum culpa consequatur ipsam exercitationem quasi? Rem, in. Est reprehenderit maiores minus eveniet.</p>
+              <p>, eaque numquam. Pariatur est distinctio quaerat asperiores culpa doloremque voluptas repudiandae non, itaque at.</p>
+              <p>idunt laborum quas totam, voluptatibus voluptates, cumque consequatur error. Sit, odit! Facere eaque reprehenderit fuga corrupti?</p>
+              <p>bero nostrum eligendi quia corrupti enim laborum aliquid dolorum velit et. Explicabo, quis.</p>
+              <p>stias incidunt dicta. Facilis, fugiat tenetur odio exercitationem, quaerat aliquid aspernatur consequuntur, pariatur non sit mollitia.</p>
+              <p> ipsam exercitationem quasi? Rem, in. Est reprehenderit maiores minus eveniet.</p>
             </div>
             <div class="create-a-listing">
               <a href="#create-a-listing">Create a listing</a>
@@ -59,21 +56,56 @@
         <div class="right-down">Hírek</div>
       </div>
       <div class="article">
-        <div class="art-nav">Blog, üzenőfal</div>
+        <div class="art-nav">
+          <ul>
+            <button class="butt">Posts</button>
+            <li><a href="#latest">Latest</a></li>
+            <li><a href="#infinity">Infinity</a></li>
+            <li><a href="#year">Year</a></li>
+            <li><a href="#month">Month</a></li>
+            <li><a href="#week">Week</a></li>
+            <li><a class="active" href="feed">Feed</a></li>
+          </ul>
+        </div>
         <div class="content">
-          <div class="comments">
-            <p class="hashtag">#<a href="#">ux</a></p>
-            <p class="hashtag">#<a href="#">design</a></p>
-            <p class="hashtag">#<a href="#">webdev</a></p>
-            <p class="hashtag">#<a href="#">carrier</a></p>
+          <img class="fokep" src="icons/kepikep.jpg" alt="cukkikep">
+          <div class="tarolo">
+            <div><img class="imge" src="icons/crop-circle.png" alt="proilkep"></div> 
+            <div class="szöv">
+                <p class="p0">Mocza Szilvia</p>
+                <p class="p1">Jan 30 (1250 hours ago)</p>
+                <p class="p2">Nagyon szép kisvirág lol</p>
+                <p class="hashtag">#<a href="#">javascript</a></p>
+                <p class="hashtag">#<a href="#">növényke</a></p>
+                <p class="hashtag">#<a href="#">webdev</a></p>
+                <p class="hashtag">#<a href="#">database</a></p><br>
+                <img class="ikon" src="icons/heart.ico" alt="szivecske"><p class="ikon">6 reakció</p>
+                <img class="ikon" src="icons/like.ico" alt="like"><p class="ikon">23 likok</p>
+                <div class="gomb">
+                    <p class="p3">14 min read</p>
+                    <button>Save</button>
+                </div> 
+            </div>
           </div>
-          <div class="comments">
-            <p class="hashtag">#<a href="#">javascript</a></p>
-            <p class="hashtag">#<a href="#">vue</a></p>
-            <p class="hashtag">#<a href="#">webdev</a></p>
-            <p class="hashtag">#<a href="#">database</a></p>
+
+            <div class="tarolo1">
+              <div><img class="imge" src="icons/profilkep-modified.png" alt="proilkep"></div> 
+              <div class="szöv">
+                  <p class="p0">Erben Akos</p>
+                  <p class="p1">Jan 6 (2 hours ago)</p>
+                  <p class="p2">tenyjleg szíp!!!!4!</p>
+                  <p class="hashtag">#<a href="#">javascript</a></p>
+                  <p class="hashtag">#<a href="#">növényke</a></p>
+                  <p class="hashtag">#<a href="#">webdev</a></p>
+                  <p class="hashtag">#<a href="#">database</a></p><br>
+                  <img class="ikon" src="icons/heart.ico" alt="szivecske"><p class="ikon">66 reakció</p>
+                  <img class="ikon" src="icons/like.ico" alt="like"><p class="ikon">2 likok</p>
+                  <div class="gomb">
+                      <p class="p3">14 min read</p>
+                      <button>Save</button>
+                  </div> 
+              </div>
           </div>
-          <div></div>
         </div>
       </div>
     </div>

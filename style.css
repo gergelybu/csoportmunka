@@ -17,7 +17,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
-    border: 2px solid red;
+    border: 4px solid red;
     height: 5vh;
 }
 .aside-left{
@@ -29,7 +29,7 @@
     grid-column-end: 2;
     display: grid;
     grid-template-rows: 45vh 50vh;
-    background-color: rgb(12, 12, 17);
+    background-color: black;
 }
 
 .aside-left img{
@@ -83,17 +83,19 @@ a{
 #tag{
     font-size: 16pt;
     font-weight: bold;
+    margin-bottom: 10px;
+    width: 50px;
 }
 
 .left-down img{
     width: 30px;
     height: auto;
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 .right-up{
     border: 2px solid red;
-    background-color: rgb(12, 12, 17);
+    background-color: black;
 }
 .right-down{
     border: 2px solid red;
@@ -105,91 +107,158 @@ a{
     border: 2px solid red;
 }
 .right-up-container{
-    background-color: rgb(36, 36, 57);
+    background-color: black;
     margin: 10px;
     padding: 10px;
 }
 .see-all{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    
     border-top-left-radius: 10px;
-    border-bottom: 3px solid rgb(0, 0, 61);
-}
-.see-all a{
-    color: rgb(57, 84, 255);
-    text-align: right;
+    border-bottom: 3px solid ;
 }
 .listings p{
-    border-bottom: 3px solid rgb(0, 0, 61);
-}
-.listings p{
-    padding: 3px;
+    border-bottom: 3px solid black;
 }
 .create-a-listing{
     text-align: center;
     padding: 20px;
 }
 .content{
-    background-color: rgb(12, 12, 17);
+    background-color: grey;
+    height: 617px ;
+}
+
+.art-nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    float: right;
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.active{
+    border-bottom: 3px solid rgb(153, 48, 153);
+    color: white;
+}
+
+.butt{
+    background-color: black;
+    float: left;
+    margin-left: 0cm;
+    margin: 12px;  
+    font-size: large;
+}
+
+.fokep{
+    
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
+    border-radius: 2px;}
+
+.nut{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.nutnut{
+    margin-top: 5px;
+    margin: 0px;
+    text-align: right;
+}
+
+.tarolo, .tarolo1{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    text-align: left;
+    border-bottom: 100px solid black;
+    border-top: 20px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-rows: 50% 50%;
+    height: 190px;
+    
+}
+
+.tarolo1{
+    margin-top: 5px;
+
+}
+.imge{
+    width: 40px;
+    float: right;
+    margin-right: 10px;
+}
+
+.szöv{
+  
+}
+
+.p0{
+    color: rgb(149, 148, 148);
+    grid-column: 1/-1;
+}
+
+.p1{
+    color: rgb(50, 50, 50);
+    grid-column: 1/-1;
+}
+
+.p2{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-column: 1/-1;
 }
 
 .hashtag a{
-    color: rgb(80, 80, 80);
+    color: rgb(149, 148, 148);
+    text-decoration: none;
 }
 
 .hashtag{
     color: rgb(50, 50, 50);
-    margin: 5px;
+    display: inline;
 }
 
-.comments{
+.ikon{
+    margin-top: 20px;
+    width: 10px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.gomb{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.navbar .DEV{
-    float: left;
-    height: 35px;
-    width: 50px;
-    background-color: white;
-    border-radius: 5px;
-    margin: 5px;
-}
-.navbar .post{
+    justify-content: space-between;
     float: right;
-    height: 35px;
-    width: 100px;
-    background-color: cornflowerblue;
-    border-radius: 5px;
-    margin: 5px;
-}
-.navbar button a{
-    color: black;
-    font-weight: 800;
-    font-style: initial;
-}
-.navbar{
-    background-color: rgb(46, 46, 68);
-    height: 50px;
-}
-.navbar input{
-    float:  left;
-    height: 35px;
-    width: 350px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(78, 78, 102);
-    border-radius: 5px;
-    border: 2px solid rgb(91, 91, 115);
 }
 
-::placeholder{
-    color: rgb(165, 165, 165);
+.p3{ 
+    color: rgb(50, 50, 50);
+    margin-right: 5px;
+    margin-top: 5px;
+
 }
-.navbar img{
-    height: 35px;
-    float:  right;
-    margin: 5px;
+.gomb button{
+    margin-right: 20px;
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    background-color:  rgb(149, 148, 148) ;
 }
