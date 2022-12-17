@@ -16,8 +16,8 @@
 .navbar{
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: black;
     text-align: center;
-    border: 4px solid red;
     height: 5vh;
 }
 .aside-left{
@@ -39,7 +39,7 @@
 
 .article{
     text-align: center;
-    border: 2px solid red;
+    background-color: black;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -48,7 +48,6 @@
     grid-template-rows: 7vh 88vh ;
 }
 .aside-right{
-    border: 2px solid red;
     grid-column-start: 3;
     grid-column-end: 4;
     display: grid;
@@ -94,17 +93,14 @@ a{
 }
 
 .right-up{
-    border: 2px solid red;
     background-color: black;
 }
 .right-down{
-    border: 2px solid red;
+    background-color: black;
 }
 .art-nav{
-    border: 2px solid red;
 }
 .content{
-    border: 2px solid red;
 }
 .right-up-container{
     background-color: black;
